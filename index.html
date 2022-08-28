@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <div class="form">
+        <form action="#">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age">
+            </div>
+            <div>
+                <label for="options">Which option best describes you?</label>
+                <select name="options" id="options">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label>Would you recommend GeeksforGeeks to a friend?</label>
+                <label for="yes"><input type="radio" name="three" id="yes">Yes</label>
+                <label for="no"><input type="radio" name="three" id="no">No</label>
+                <label for="maybe"><input type="radio" name="three" id="maybe">Maybe</label>
+            </div>
+            <div>
+                <label for="tools">Languages and Frameworks known (Check all that apply)</label>
+                <label for="c"><input type="checkbox" id="c">C</label>
+                <label for="c++"><input type="checkbox" id="c++">C++</label>
+                <label for="c#"><input type="checkbox" id="c#">C#</label>
+                <label for="java"><input type="checkbox" id="java">Java</label>
+                <label for="python"><input type="checkbox" id="python">Python</label>
+                <label for="javascript"><input type="checkbox" id="javascript">JavaScript</label>
+                <label for="react"><input type="checkbox" id="react">React</label>
+                <label for="angular"><input type="checkbox" id="angular">Angular</label>
+                <label for="django"><input type="checkbox" id="django">Django</label>
+                <label for="spring"><input type="checkbox" id="spring">Spring</label>
+            </div>
+            <div>
+                <label for="textarea">Any comments or suggestions</label>
+                <textarea name="comment" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

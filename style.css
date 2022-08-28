@@ -1,0 +1,18 @@
+body {
+    background-color: #05c46b;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+ 
+div {
+    display: flex;
+    flex-direction: column;
+}
